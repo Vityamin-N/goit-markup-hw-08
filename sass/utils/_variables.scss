@@ -1,0 +1,22 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --background-button: #188ce8;
+    --white-color: #ffffff;
+    --background-color: #e5e5e5;
+    --hero-background-color: #2f303a;
+    --second-accent-color: #000000;
+    --grid-background: #f5f4fa;
+    --icon-color: #afb1b8;
+}
+
+body {
+    background-color: var(--title-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
