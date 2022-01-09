@@ -624,20 +624,20 @@ a {
   }
 }
 
-.work.visually-hidden__list {
+.work__list {
   display: flex;
   justify-content: space-between;
 }
 
-.work.visually-hidden__item {
+.work__item {
   position: relative;
 }
 
-.work.visually-hidden__item:last-child {
+.work__item:last-child {
   margin-right: 0;
 }
 
-.work.visually-hidden__mission {
+.work__mission {
   display: block;
   position: absolute;
   background-color: rgba(47, 48, 58, 0.8);
@@ -648,7 +648,7 @@ a {
   transform: translate(-50%, 110%);
 }
 
-.work.visually-hidden__mission-title {
+.work__mission-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
