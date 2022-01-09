@@ -1,15 +1,17 @@
-html {
-  box-sizing: border-box;
-}
+// html {
+//   box-sizing: border-box;
+// }
 
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
+// *,
+// *::after,
+// *::before {
+//   box-sizing: inherit;
+// }
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -27,9 +29,16 @@ ul {
   margin-bottom: 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 .web {
   color: var(--accent-color);
 }
 .section {
-  padding: 94px 0px;
+  padding: 60px 0px;
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0px;
+  }
 }
