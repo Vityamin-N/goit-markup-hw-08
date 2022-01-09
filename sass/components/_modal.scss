@@ -136,6 +136,9 @@
   &__policy {
     display: flex;
   }
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
 }
 
 .input-wrap {
@@ -160,9 +163,6 @@
   color: var(--primary-text-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.check-text {
   span {
     width: 16px;
     height: 15px;
@@ -172,6 +172,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-left: 8px;
   }
 }
 
