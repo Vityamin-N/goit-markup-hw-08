@@ -12,7 +12,8 @@
 
   &__networks-list {
     display: flex;
-    width: 205px;
+    justify-content: center;
+    // width: 205px;
     margin-top: 20px;
     padding: 0px;
     &:hover {
