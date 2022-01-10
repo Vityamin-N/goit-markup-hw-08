@@ -768,7 +768,13 @@ img {
 @media screen and (min-width: 768px) {
   .team__item {
     width: 354px;
+  }
+  .team__item:nth-child(2n) {
+    margin-right: 0;
     margin-left: 15px;
+  }
+  .team__item:nth-child(2n + 1) {
+    margin-left: 0;
     margin-right: 15px;
   }
 }
@@ -814,11 +820,12 @@ img {
 }
 
 .team__item {
-  margin-right: 15px;
+  margin-right: 0px;
+  margin-bottom: 30px;
 }
 
 .team__item:last-child {
-  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .team__social-list {
@@ -881,7 +888,12 @@ img {
 
 .clients__item {
   margin-right: 30px;
+  margin-bottom: 30px;
   width: calc(100% / 2 - 30px);
+}
+
+.clients__item:nth-child(3n) {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
