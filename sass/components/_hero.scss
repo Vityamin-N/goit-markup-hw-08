@@ -3,8 +3,6 @@
   padding-top: 118px;
   padding-bottom: 118px;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
   border: 1px solid #ececec;
   @media screen and(min-width:1199px) {
     padding-top: 200px;
@@ -15,6 +13,7 @@
     font-size: 26px;
     line-height: 1.6;
     color: var(--white-color);
+    text-transform: uppercase;
     margin-bottom: 30px;
     @media screen and (min-width: 1200px) {
       font-size: 44px;
