@@ -1,6 +1,7 @@
 .social {
   &__networks-title {
     color: var(--white-color);
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -13,8 +14,6 @@
   &__networks-list {
     display: flex;
     justify-content: center;
-    // width: 205px;
-    margin-top: 20px;
     padding: 0px;
     &:hover {
       border-color: var(--accent-color);
